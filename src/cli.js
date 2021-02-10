@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
 
-const name = readlineSync.question('Your answer: ');
+const input = (question) => readlineSync.question(question);
 
-export default name;
+export default input;
