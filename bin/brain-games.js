@@ -2,4 +2,4 @@
 
 import name from '../src/cli.js';
 
-console.log(`Hello, ${name('What is your name? ')}!`);
+console.log(`Hello, ${name('May I have your name?')}!`);
