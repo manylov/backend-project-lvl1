@@ -13,7 +13,6 @@ const game = (task, getQuestion) => {
   let wrongAnswer = false;
 
   while (wins < 3 && !wrongAnswer) {
-    console.log({ wrongAnswer });
     const { question, answer } = getQuestion();
     console.log(`Question: ${question}`);
     const ANSWER = input('Your answer: ');
