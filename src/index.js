@@ -20,7 +20,7 @@ const game = (task, getQuestion) => {
       console.log(
         `'${ANSWER}' is wrong answer ;(. Correct answer was '${answer}'.`,
       );
-      console.log("Let's try again, Bill!");
+      console.log(`Let's try again, ${NAME}!`);
       wrongAnswer = true;
     } else {
       console.log('Correct!');
