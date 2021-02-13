@@ -5,7 +5,7 @@ const task = 'Find the greatest common divisor of given numbers.';
 const getRandomInt = (limit) => Math.round(Math.random() * limit);
 
 const getProgression = (initialValue, answer, length, hideIndex) => ({
-  progression: Array(length).fill('').map((_, index) => (index === hideIndex ? '...' : initialValue + answer * index)),
+  progression: Array(length).fill('').map((_, index) => (index === hideIndex ? '...' : initialValue + answer * index)).join(' '),
   answer: initialValue + answer * hideIndex,
 });
 
