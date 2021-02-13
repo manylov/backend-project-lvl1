@@ -4,7 +4,7 @@ const task = 'Find the greatest common divisor of given numbers.';
 
 const getRandomInt = (limit) => Math.round(Math.random() * limit);
 
-const gcd = function (a, b) {
+const gcd = (a, b) => {
   if (!b) {
     return a;
   }
