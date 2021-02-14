@@ -10,7 +10,7 @@ const getProgression = (initialValue, answer, length, hideIndex) => ({
 });
 
 const getQuestion = () => {
-  const coeff = getRandomInt(10);
+  const coeff = getRandomInt(10) + 1;
 
   const initialValue = getRandomInt(20);
   const progressionLength = getRandomInt(5) + 5;
